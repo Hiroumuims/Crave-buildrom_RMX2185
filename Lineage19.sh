@@ -3,7 +3,7 @@
 echo "Build Started"
 # Accounts
 git config --global user.name "Hiroumuims"
-git config --global user.email "miyamuragsmonly@gmail.com"
+git config --global user.email "hello@gmail.com"
 
 #linux-x86 remove
 rm -rf prebuilts/clang/host/linux-x86
@@ -36,4 +36,4 @@ echo "Starting....
 echo "============"
 
 # Build
-brunch RMX2185
+mka bacon
