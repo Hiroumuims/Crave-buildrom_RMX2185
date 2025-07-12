@@ -25,6 +25,13 @@ git clone https://github.com/techyminati/android_device_realme_RMX2185.git -b li
 git clone https://github.com/techyminati/proprietary_vendor_realme_RMX2185.git -b lineage-18.1 vendor/realme/RMX2185
 git clone https://github.com/techyminati/android_kernel_realme_karashi.git -b android-10.0 kernel/realme/RMX2185
 
+#keys 
+mkdir -p device/realme/RMX2185/keys
+cd device/realme/RMX2185/keys
+openssl genrsa -out releasekey.pk8 2048
+openssl req -new -x509 -key releasekey.pk8 -out releasekey.x509.pem -days 10000 -subj "/CN=Realme Haydn Build/"
+cd ../../../..
+
 # Setup the build environment 
 . build/envsetup.sh
 echo "Success"
