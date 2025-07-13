@@ -39,7 +39,7 @@ echo "Success"
 # Lunch
 lunch lineage_RMX2185-userdebug
 echo "============"
-echo "Starting....
+echo "Starting...."
 echo "============"
 
 # Build
