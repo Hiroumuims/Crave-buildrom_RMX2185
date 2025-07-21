@@ -22,7 +22,7 @@ echo "=============================="
 
 # Sync Trees
 git clone https://github.com/techyminati/android_device_realme_RMX2185.git -b lineage-18.1 device/realme/RMX2185
-git clone https://github.com/techyminati/proprietary_vendor_realme_RMX2185.git -b lineage-18.1 vendor/realme/RMX2185
+git clone https://github.com/Hiroumuims/proprietary_vendor_realme_RMX2185.git -b lineage-18.1 vendor/realme/RMX2185
 git clone https://github.com/techyminati/android_kernel_realme_karashi.git -b android-10.0 kernel/realme/RMX2185
 
 #keys 
