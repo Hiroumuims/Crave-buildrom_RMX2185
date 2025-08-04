@@ -24,6 +24,8 @@ echo "=============================="
 git clone https://github.com/techyminati/android_device_realme_RMX2185.git -b lineage-18.1 device/realme/RMX2185
 git clone https://github.com/Hiroumuims/proprietary_vendor_realme_RMX2185.git -b lineage-18.1 vendor/realme/RMX2185
 git clone https://github.com/techyminati/android_kernel_realme_karashi.git -b android-10.0 kernel/realme/RMX2185
+git clone https://github.com/crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-5484270.git prebuilts/clang/host/linux-x86
+/clang-5484270
 
 #keys 
 mkdir -p device/realme/RMX2185/keys
