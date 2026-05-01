@@ -9,7 +9,7 @@ git config --global user.email "hello@gmail.com"
 rm -rf prebuilts/clang/host/linux-x86
 
 # repo init rom
-repo init -u https://github.com/VoltageOS/manifest.git -b 14 --git-lfs
+repo init -u https://github.com/LineageOS/android.git -b lineage-19.0
 echo "========================="
 echo "Repo init success Master"
 echo "========================="
