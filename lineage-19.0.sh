@@ -5,9 +5,6 @@ echo "Build Started"
 git config --global user.name "Hiroumuims"
 git config --global user.email "hello@gmail.com"
 
-#linux-x86 remove
-rm -rf prebuilts/clang/host/linux-x86
-
 # repo init rom
 repo init -u https://github.com/LineageOS/android.git -b lineage-19.0
 echo "========================="
@@ -15,7 +12,7 @@ echo "Repo init success Master"
 echo "========================="
 
 # Build Sync
-/opt/crave/resync.sh
+repo sync
 echo "=============================="
 echo "Master the Sync is now Success"
 echo "=============================="
